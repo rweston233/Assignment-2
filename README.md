@@ -23,7 +23,7 @@
 ### Part II
 > Start writing SQL queries
 
-- Construct the following queries:  
+- **Construct the following queries:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with family relationships using joins between person, family and relationship  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with friendship relationships using joins between person, friend and relationship  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all person, with or without a relationship of any kind, and any family relationships (hint: left join)  
@@ -32,7 +32,7 @@
 - Create a file called *queries.sql* and add the queries to the SQL file. Include a query description before each query as a query comment.
 
 
-### Part III
-> Based on your area of interest or major, identify and list ten specific instances of how databases are used.
+### Part III - *Optional Extra Credit*
+> Think how you might make it possible to calculate the number of generations one person is from someone else. In other words, a relationship from father to son is 1, while a relationship of grandfather to grandson is 2.
 
-- Identify the type of database that these would be used in (relational, NoSQL). Save this list of uses and database types in a file called database_uses.txt.
+- Create a file called *generations.txt*, and write a paragraph of at least three sentences describing how you might solve this problem. Your solution should propose any additional tables, and any changes to existing tables, and how these changes would be used to compute generation numbers.
