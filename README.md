@@ -38,4 +38,4 @@
 - Create a file called *generations.txt*, and write a paragraph of at least three sentences describing how you might solve this problem. Your solution should propose any additional tables, and any changes to existing tables, and how these changes would be used to compute generation numbers.
 
 #### Deliverables
-[assign02.zip](https://github.com/rweston233/Assignment-2/blob/main/assign02.zip
+[assign02.zip](https://github.com/rweston233/Assignment-2/blob/main/assign02.zip)
