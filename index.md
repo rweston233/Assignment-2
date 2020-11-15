@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Assignment 2 Repo
 
-You can use the [editor on GitHub](https://github.com/rweston233/Assignment-2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Assignment 2 Learning Objectives
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Part I
+> Getting familiar with MySQL
 
-### Markdown
+- Using MySQL Workbench Model and illustrate tables, the table properties, property data types, and any relationships.
+- Decipher which columns are the primary key or keys, and which columns are foreign keys. (Surrogate columns are welcome to be used for primary keys.)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Using the list below of required table names. Make a relational model that can be used to track who comes to a family wedding.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **- Person** - 3 columns minimum and 10 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **- Relationship** - 1 column minimum and 10 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **- Family** - M:N, 3 columns minimum and 5 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **- Friend** - M:N, 3 columns minimum and 5 rows minimum  
 
-```markdown
-Syntax highlighted code block
+**Part I Deliverables**
+- A PDF of the entity relationships (ER) diagram named *er_diagram.pdf*
+- The SQL to create the four tables in a single SQL file named *schema.sql*
+- Four csv exports of the data of each of the four tables named *person_data.csv*, *relationship_data.csv*, *family_data.csv* and *friend_data.csv*
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Part II
+> Start writing SQL queries
 
-1. Numbered
-2. List
+- **Construct the following queries:**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with family relationships using joins between person, family and relationship  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with friendship relationships using joins between person, friend and relationship  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all person, with or without a relationship of any kind, and any family relationships (hint: left join)  
 
-**Bold** and _Italic_ and `Code` text
+**Part II Deliverables**
+- Create a file called *queries.sql* and add the queries to the SQL file. Include a query description before each query as a query comment.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Part III - *Optional Extra Credit*
+> Think how you might make it possible to calculate the number of generations one person is from someone else. In other words, a relationship from father to son is 1, while a relationship of grandfather to grandson is 2.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rweston233/Assignment-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Create a file called *generations.txt*, and write a paragraph of at least three sentences describing how you might solve this problem. Your solution should propose any additional tables, and any changes to existing tables, and how these changes would be used to compute generation numbers.
