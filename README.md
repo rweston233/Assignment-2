@@ -21,18 +21,16 @@
 
 
 ### Part II
-> **Be able to define the following terms in your own words.**
+> Start writing SQL queries
 
-- Database Schema
-- DBMS
-- Primary key
-- Foreign key
-- Surrogate key
-- Entity integrity
-- Referential integrity
-- Weak entity
+- Construct the following queries:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with family relationships using joins between person, family and relationship  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all persons with friendship relationships using joins between person, friend and relationship  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A query to list all person, with or without a relationship of any kind, and any family relationships (hint: left join)  
 
-Save definitions to a file called definitions.txt
+**Part II Deliverables**
+- Create a file called *queries.sql* and add the queries to the SQL file. Include a query description before each query as a query comment.
+
 
 ### Part III
 > Based on your area of interest or major, identify and list ten specific instances of how databases are used.
