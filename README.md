@@ -8,11 +8,11 @@
 - Using MySQL Workbench Model and illustrate tables, the table properties, property data types, and any relationships.
 - Decipher which columns are the primary key or keys, and which columns are foreign keys. (Surrogate columns are welcome to be used for primary keys.)
 
-- Using the list below of required table names. Make a relational model that can be used to track who comes to a family wedding.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - person - 3 columns minimum and 10 rows minimum
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - relationship - 1 column minimum and 10 rows minimum
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - family - M:N, 3 columns minimum and 5 rows minimum
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - friend - M:N, 3 columns minimum and 5 rows minimum
+- Using the list below of required table names. Make a relational model that can be used to track who comes to a family wedding.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - person - 3 columns minimum and 10 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - relationship - 1 column minimum and 10 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - family - M:N, 3 columns minimum and 5 rows minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - friend - M:N, 3 columns minimum and 5 rows minimum  
 
 
 ### Part II
