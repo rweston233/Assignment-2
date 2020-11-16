@@ -15,8 +15,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **- Friend** - M:N, 3 columns minimum and 5 rows minimum  
 
 **Part I Deliverables**
-- A PDF of the entity relationships (ER) diagram named er_diagram.pdf
-- The SQL to create the four tables in a single SQL file named schema.sql
+- A PDF of the entity relationships (ER) diagram named `er_diagram.pdf`
+- The SQL to create the four tables in a single SQL file named `schema.sql`
 - Four csv exports of the data of each of the four tables named `person_data.csv`, `relationship_data.csv`, `family_data.csv` and `friend_data.csv`
 
 
